@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 import { useParams, Link } from 'react-router-dom';
 import useBlogCalls from '../hooks/useBlogCalls';

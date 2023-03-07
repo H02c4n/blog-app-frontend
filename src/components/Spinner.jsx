@@ -3,7 +3,7 @@ import loading from '../assets/loading.gif';
 
 const Spinner = () => {
   return (
-    <img style={{width:"50px"}} src={loading}/>
+    <img alt='spinner' style={{width:"50px"}} src={loading}/>
   )
 }
 

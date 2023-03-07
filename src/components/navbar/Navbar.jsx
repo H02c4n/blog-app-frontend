@@ -1,13 +1,12 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import useAuthCalls from '../../hooks/useAuthCalls'
 import profile from '../../assets/avatar.png'
 import {BiEdit} from 'react-icons/bi'
 
 const Navbar = () => {
 
-  const navigate = useNavigate();
 
   const { currentUser, currentUserId} = useSelector((state) => state.auth);
   const { currentAuthor, themes } = useSelector((state) => state.blog);
@@ -31,7 +30,7 @@ const Navbar = () => {
   return (<>
     <nav style={{backgroundColor:customStyle.first_color}} className={customStyle?.first_color ? 'navbar navbar-expand-lg' : 'navbar navbar-expand-lg bg-light'}  >
       <div className="container-fluid d-flex justify-content-between">
-        <Link to="/"> <img style={{ width: "50px", height: "50px" }} className='rounded-circle' src={currentAuthor?.image ? currentAuthor?.image : profile} /></Link>
+        <Link to="/"> <img style={{ width: "50px", height: "50px" }} className='rounded-circle' src={currentAuthor?.image ? currentAuthor?.image : profile} alt="avatar" /></Link>
 
         <div className='d-flex'>
           {currentUser && (<><Link className="nav-link me-3 fw-bold" to="/profile">Profile</Link>

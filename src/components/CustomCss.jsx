@@ -30,7 +30,7 @@ const CustomCss = ({currentUserId}) => {
     font_color: initialState?.font_color || "#ffffff",
     first_color: initialState?.first_color || "#ffffff",
     second_color: initialState?.second_color || "#ffffff",
-    font_size: initialState?.font_size || 16
+    font_size: initialState?.font_size || null
   });
 
 

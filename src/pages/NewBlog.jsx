@@ -153,7 +153,7 @@ const NewBlog = () => {
 
                     <div className="d-grid gap-2">
                       <button className="btn btn-primary" type="Submit">
-                        {loading == true ? <Spinner/> : 'Submit'}
+                        {loading === true ? <Spinner/> : 'Submit'}
                       </button>
                     </div>
                   </form>

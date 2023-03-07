@@ -131,7 +131,6 @@ const useBlogCalls = () => {
 
     const addPost = (info) => sendPost('posts', info, `Post is created successfully`);
 
-    const addStyle = (info) => sendPost('themes', info, 'Theme is created successfully');
 
 
     //!  --------------UPDATE CALLS--------------

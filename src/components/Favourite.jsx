@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { useSelector } from 'react-redux';
 import { BsBookmarkStar, BsBookmarkStarFill } from "react-icons/bs";
 import useBlogCalls from '../hooks/useBlogCalls';
@@ -25,15 +25,3 @@ const Favourite = ({currentPost}) => {
 
 
 
-
-
-{/*
-return (
-        <span onClick={()=>  favouriteToggle(currentPost?.id)
-        } className='float-end'>{ currentPost?.favourites?.filter(favItem => favItem === currentUserId) > 0 ? (<BsBookmarkStarFill/>) : (<BsBookmarkStar/>)}</span>
-      )
-    }
-    
-    export default Favourite
-
-*/}
