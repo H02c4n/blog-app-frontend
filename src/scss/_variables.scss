@@ -1,0 +1,40 @@
+$gray-darker:            lighten(#000, 13.5%); 
+$gray-dark:              lighten(#000, 20%);   
+$gray:                   lighten(#000, 33.5%); 
+$gray-light:             lighten(#000, 70%);   
+$gray-lighter:           lighten(#000, 82%); 
+
+$brand-primary:         #3C3343;
+$brand-primary-dark:    darken($brand-primary, 8%);
+$brand-primary-light:   lighten($brand-primary, 10%);
+$brand-primary-lighter: lighten($brand-primary, 25%);
+$brand-success:         #5cb85c;
+$brand-info:            #5bc0de;
+$brand-warning:         #f0ad4e;
+$brand-danger:          #d9534f;
+
+$brand-red:				#8b2626;
+$brand-blue:			#43668C;
+$brand-green: 			#649F2B;
+$brand-aqua:			#86B998;
+$brand-yellow:			#d0b426;
+$brand-brown:			#6F6F55;
+$brand-violet:			#8270A4;
+$brand-orange:			#ae6926;
+
+$brand-red-light:		lighten($brand-red, 10%);
+$brand-red-dark:		darken($brand-red, 10%);
+$brand-blue-light:		lighten($brand-blue, 10%);
+$brand-blue-dark:		darken($brand-blue, 10%);
+$brand-green-light:		lighten($brand-green, 10%);
+$brand-green-dark:		darken($brand-green, 10%);
+$brand-aqua-light:		lighten($brand-aqua, 10%);
+$brand-aqua-dark:		darken($brand-aqua, 10%);
+$brand-yellow-light:	lighten($brand-yellow, 10%);
+$brand-yellow-dark:		darken($brand-yellow, 10%);
+$brand-brown-light:		lighten($brand-brown, 10%);
+$brand-brown-dark:		darken($brand-brown, 10%);
+$brand-violet-light:	lighten($brand-violet, 10%);
+$brand-violet-dark:		darken($brand-violet, 10%);
+$brand-orange-light:	lighten($brand-orange, 10%);
+$brand-orange-dark:		darken($brand-orange, 10%);
